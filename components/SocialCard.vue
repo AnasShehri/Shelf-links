@@ -1,0 +1,69 @@
+<script setup>
+  const links = [
+    { name: "CollegeShelf #1", link: "https://chat.whatsapp.com/K8ZAT2ERiR8DWddZZRhV69", img: "/logo.jpg" },
+    { name: "CollegeShelf #2", link: "https://chat.whatsapp.com/E1QvxQghG568VXxo7PdINE", img: "/logo.jpg" },
+
+    { name: "QuestionShelf", link: "https://t.me/+sxCiRknMxW8zNGU8", img: "/links/question-shelf.jpeg" },
+    { name: "SectionShelf", link: "https://t.me/+XT2m4V_GqyVjOTM0", img: "/links/section-shelf.jpeg" },
+
+    { name: "ShelfCode", link: "https://chat.whatsapp.com/C4GAqsM7eKHE3ltSJYSZ85", img: "/links/shelf-code.jpeg" },
+
+    // Others
+    { name: "تقويم الفصل الدراسي الأول 1445", link: "https://docdro.id/m9F9FGv", img: "/links/calendar.jpeg" },
+    { name: "Box", link: "https://app.box.com/s/wlrcpuv7bm0qqvxjwx67dj9taaadfhl2", img: "/links/box.jpeg" },
+    { name: "تقييم", link: "https://unirate.xyz/", img: "/links/unirate.png" }
+
+  ]
+
+defineProps({ title: String, img: String, link: String });
+
+</script>
+
+<template>
+    <div style="display: flex; flex-direction: column; align-items: center;">
+        <a v-for="link in links" :href="link.link" >
+            <img :src="link.img">
+            <span>{{ link.name }}</span>
+        </a>
+    </div>
+</template>
+
+<style scoped>
+    a {
+        display: flex;
+
+        align-items: center;
+
+        height: 40px;
+        width: 100%;
+        max-width: 350px;
+
+        border: 0px;
+        
+        margin-bottom: 15px;
+        border-radius: 5px;
+
+        background: linear-gradient(90deg, #A13333, #B3541E);
+    }
+
+    a:last-child {
+        margin-bottom: 0px;
+    }
+
+    a:hover {
+        background: linear-gradient(90deg, #B3541E, #A13333);
+    }
+
+    a > img {
+        width: 35px;
+        height: 35px;
+
+        margin-left: 5px;
+
+        border-radius: 50%;
+    }
+
+    a > span {
+        margin: 0 auto;
+    }
+</style>
