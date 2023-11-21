@@ -5,7 +5,7 @@
         </el-col>
 
         <el-col>
-            <el-text size="large">🤍 أهم الروابط في مكان واحد</el-text>
+            <el-text size="large">أهم الروابط في مكان واحد</el-text>
         </el-col>
     </el-row>
 </template>

@@ -9,13 +9,11 @@
     { name: "ShelfCode", link: "https://chat.whatsapp.com/C4GAqsM7eKHE3ltSJYSZ85", img: "/links/shelf-code.jpeg" },
 
     // Others
-    { name: "تقويم الفصل الدراسي الأول 1445", link: "https://docdro.id/m9F9FGv", img: "/links/calendar.jpeg" },
+    { name: "تقويم الفصل الدراسي 1445", link: "https://docdro.id/m9F9FGv", img: "/links/calendar.jpeg" },
     { name: "Box", link: "https://app.box.com/s/wlrcpuv7bm0qqvxjwx67dj9taaadfhl2", img: "/links/box.jpeg" },
     { name: "تقييم", link: "https://unirate.xyz/", img: "/links/unirate.png" }
 
   ]
-
-defineProps({ title: String, img: String, link: String });
 
 </script>
 
@@ -65,5 +63,17 @@ defineProps({ title: String, img: String, link: String });
 
     a > span {
         margin: 0 auto;
+    }
+
+    @media screen and (min-width: 500px) and (min-height: 768px) {
+        a {
+            height: 50px;
+            max-width: 500px;
+        }
+
+        a > img {
+            width: 45px;
+            height: 45px;
+        }
     }
 </style>

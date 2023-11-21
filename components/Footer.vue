@@ -29,10 +29,21 @@
         font-family: 'Cairo', sans-serif;
         
         background: linear-gradient(45deg, #A13333, #B3541E);
+    }
 
-        
+    a:hover {
+        background: linear-gradient(45deg, #B3541E, #A13333);
+    }
+
+    a, a:hover {
         background-clip: text;
         -webkit-background-clip: text; /* Compatibility CSS */ 
         -webkit-text-fill-color: transparent; /* Compatibility CSS */ 
+    }
+
+    @media screen and (min-width: 500px) {
+        .el-text {
+            font-size: 20px;
+        }
     }
 </style>
