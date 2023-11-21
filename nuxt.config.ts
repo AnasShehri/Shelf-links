@@ -9,6 +9,10 @@ export default defineNuxtConfig({
 
   app: {
     head: {
+      htmlAttrs: {
+        lang: 'ar'
+      },
+
       title: "Links | Shelf team",
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
