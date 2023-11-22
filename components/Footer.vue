@@ -13,12 +13,21 @@
         direction: rtl;
         text-align: center;
         
-        position: absolute;
+        padding-top: 5px;
+        position: relative;
         
         left: 50%;
-        bottom: 5px;
-
         transform: translate(-50%);
+    }
+
+    @media screen and (min-height: 700px) {
+        #footer-text {
+            padding-top: 50px;
+        }
+
+        .el-text {
+            font-size: 20px;
+        }
     }
 
     .el-text {
