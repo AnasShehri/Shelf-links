@@ -1,15 +1,15 @@
 <script setup>
   const links = [
-    { name: "CollegeShelf #1", link: "https://chat.whatsapp.com/K8ZAT2ERiR8DWddZZRhV69", img: "/logo.jpg" },
-    { name: "CollegeShelf #2", link: "https://chat.whatsapp.com/E1QvxQghG568VXxo7PdINE", img: "/logo.jpg" },
+    { name: "CollegeShelf #1", link: "https://chat.whatsapp.com/K8ZAT2ERiR8DWddZZRhV69", img: "/logo.webp" },
+    { name: "CollegeShelf #2", link: "https://chat.whatsapp.com/E1QvxQghG568VXxo7PdINE", img: "/logo.webp" },
 
-    { name: "QuestionShelf", link: "https://t.me/+sxCiRknMxW8zNGU8", img: "/links/question-shelf.jpeg" },
-    { name: "SectionShelf", link: "https://t.me/+XT2m4V_GqyVjOTM0", img: "/links/section-shelf.jpeg" },
+    { name: "QuestionShelf", link: "https://t.me/+sxCiRknMxW8zNGU8", img: "/links/question-shelf.webp" },
+    { name: "SectionShelf", link: "https://t.me/+XT2m4V_GqyVjOTM0", img: "/links/section-shelf.webp" },
 
-    { name: "ShelfCode", link: "https://chat.whatsapp.com/C4GAqsM7eKHE3ltSJYSZ85", img: "/links/shelf-code.jpeg" },
+    { name: "ShelfCode", link: "https://chat.whatsapp.com/C4GAqsM7eKHE3ltSJYSZ85", img: "/links/shelf-code.webp" },
 
     // Others
-    { name: "تقويم الفصل الدراسي 1445", link: "https://docdro.id/m9F9FGv", img: "/links/calendar.jpeg" },
+    { name: "تقويم الفصل الدراسي 1445", link: "https://docdro.id/m9F9FGv", img: "/links/calendar.webp" },
     { name: "Box", link: "https://app.box.com/s/wlrcpuv7bm0qqvxjwx67dj9taaadfhl2", img: "/links/box.jpeg" },
     { name: "تقييم", link: "https://unirate.xyz/", img: "/links/unirate.png" }
 

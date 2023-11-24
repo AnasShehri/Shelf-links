@@ -1,7 +1,7 @@
 <template>
     <el-row>
         <el-col>
-            <el-avatar :size="150" src="/logo.jpg" />
+            <el-avatar :size="150" src="/logo.webp" />
         </el-col>
 
         <el-col>
