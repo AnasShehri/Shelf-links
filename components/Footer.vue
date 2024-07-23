@@ -31,17 +31,17 @@
     }
 
     .el-text {
-        color: white;
+        color: #191A1A;
     }
 
     a {
         font-family: 'Cairo', sans-serif;
         
-        background: linear-gradient(45deg, #A13333, #B3541E);
+        background: linear-gradient(45deg, #AE8941, #C5A250);
     }
 
     a:hover {
-        background: linear-gradient(45deg, #B3541E, #A13333);
+        background: linear-gradient(45deg, #c59b46, #eabf59);
     }
 
     a, a:hover {

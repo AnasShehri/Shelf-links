@@ -11,8 +11,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');   
 
     body {
-      background-color: #040303;
-      color: #ebf4f1;
+      background-color: #FAFCEF;
     }
 
     a {

@@ -20,11 +20,11 @@
 
     .el-avatar {
         border: 2px solid transparent;
-        background-image: linear-gradient(45deg, #A13333, #B3541E);
+        background-image: linear-gradient(45deg, #AE8941, #C5A250);
     }
 
     .el-text {        
-        background: linear-gradient(45deg, #A13333, #B3541E);
+        background: linear-gradient(45deg, #AE8941, #C5A250);
 
         /* Compatibility CSS */ 
         background-clip: text;

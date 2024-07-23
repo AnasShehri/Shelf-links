@@ -2,9 +2,10 @@
   const links = [
     { name: "CollegeShelf #1", link: "https://chat.whatsapp.com/K8ZAT2ERiR8DWddZZRhV69", img: "/logo.webp" },
     { name: "CollegeShelf #2", link: "https://chat.whatsapp.com/E1QvxQghG568VXxo7PdINE", img: "/logo.webp" },
+    { name: "CollegeShelf #3", link: "https://chat.whatsapp.com/G3eXbdL7mXYHHzYBBLSs6q", img: "/logo.webp" },
 
-    { name: "QuestionShelf", link: "https://t.me/+sxCiRknMxW8zNGU8", img: "/links/question-shelf.webp" },
-    { name: "SectionShelf", link: "https://t.me/+XT2m4V_GqyVjOTM0", img: "/links/section-shelf.webp" },
+    { name: "QuestionShelf", link: "https://t.me/+sxCiRknMxW8zNGU8", img: "/links/shelf-book.webp" },
+    { name: "SectionShelf", link: "https://t.me/+XT2m4V_GqyVjOTM0", img: "/links/shelf-book.webp" },
 
     //{ name: "ShelfCode", link: "https://chat.whatsapp.com/C4GAqsM7eKHE3ltSJYSZ85", img: "/links/shelf-code.webp" },
 
@@ -43,7 +44,7 @@
         margin-bottom: 15px;
         border-radius: 5px;
 
-        background: linear-gradient(90deg, #A13333, #B3541E);
+        background: linear-gradient(90deg, #AE8941, #C5A250);
     }
 
     a:last-child {
@@ -51,7 +52,7 @@
     }
 
     a:hover {
-        background: linear-gradient(90deg, #B3541E, #A13333);
+        background: linear-gradient(90deg, #c59b46, #eabf59);
     }
 
     a > img {
