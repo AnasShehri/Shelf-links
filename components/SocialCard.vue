@@ -10,8 +10,8 @@
     //{ name: "ShelfCode", link: "https://chat.whatsapp.com/C4GAqsM7eKHE3ltSJYSZ85", img: "/links/shelf-code.webp" },
 
     // Others
-    { name: "تقويم الفصل الدراسي 1445", link: "https://docdro.id/m9F9FGv", img: "/links/calendar.webp" },
-    { name: "الخطط الدراسية عام 1445", link: "https://docdro.id/MBm62zW", img: "/links/courses.webp" },
+    { name: "تقويم الفصل الدراسي 1446هـ", link: "https://drive.google.com/file/d/1n-3rYVv2qR_2VWbyVpObgN2wjwXR6BQC/view", img: "/links/calendar.webp" },
+    { name: "الخطط الدراسية عام 1445هـ", link: "https://docdro.id/MBm62zW", img: "/links/courses.webp" },
     { name: "ترتيبة | رتّب موادك بضغطة زر", link: "https://trtebh.com/", img: "/links/trtebh.webp" },
     { name: "Box", link: "https://app.box.com/s/wlrcpuv7bm0qqvxjwx67dj9taaadfhl2", img: "/links/box.jpeg" },
     { name: "تقييم", link: "https://unirate.xyz/", img: "/links/unirate.png" }
