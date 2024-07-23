@@ -13,6 +13,18 @@ export default defineNuxtConfig({
         lang: 'ar'
       },
 
+      link: [
+        // iOS images
+        { rel: 'apple-touch-icon', sizes: "180x180", href: "/apple-touch-icon.png" },
+
+        // Favicon sizes
+        { rel: 'icon', type: "image/png", href: "/favicon-32x32.png" },
+        { rel: 'icon', type: "image/png", href: "/favicon-16x16.png" },
+
+        // Android images
+        { rel: 'manifest', href: '/site.webmanifest' }
+      ],
+
       meta: [
         { name: "viewport", content: "width=device-width, initial-scale=1" }, // Viewport
 
@@ -24,8 +36,8 @@ export default defineNuxtConfig({
           { name: "twitter:card", content: "summary_large_image" },
         
           // Status bar customization
-          { name: "theme-color", content: "#040303" },
-          { name: "msapplication-navbutton-color", content: "#040303" },
+          { name: "theme-color", content: "#FAFCEF" },
+          { name: "msapplication-navbutton-color", content: "#FAFCEF" },
           { name: "apple-mobile-web-app-capable", content: "yes" }, // Sets Full-scren
           { name: "apple-mobile-web-app-status-bar-style", content: "black-translucent" }, // Sets the style of the status bar
 
@@ -43,5 +55,7 @@ export default defineNuxtConfig({
 
       title: "Shelf Team | اهم الروابط في مكان واحد"
     }
-  }
+  },
+
+  compatibilityDate: "2024-07-23"
 })
